@@ -6,7 +6,7 @@
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="<?= base_url(''); ?>/assets/img/logo.png" alt="">
-        <span class="d-none d-lg-block">NiceAdmin</span>
+        <span class="d-none d-lg-block">MASUK</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
@@ -53,7 +53,7 @@
             <li>
               <a class="dropdown-item d-flex align-items-center" href="<?= base_url('home/logout');?>">
                 <i class="bi bi-box-arrow-right"></i>
-                <span>Sign Out</span>
+                <span>KELUAR YUK</span>
               </a>
             </li>
 
@@ -77,7 +77,7 @@
                               echo "collapsed";
                             } ?>" href="<?= base_url('dashboard'); ?>">
           <i class="bi bi-grid"></i>
-          <span>Dashboard</span>
+          <span>Menu Utama</span>
         </a>
       </li><!-- End Dashboard Nav -->
 
@@ -108,10 +108,12 @@
                                                               echo 'class="active"';
                                                             } ?>> <i class="bi bi-circle"></i><span>Berdasarkan Gender</span> </a>
           <li>
+
           <li> <a href="<?= base_url('grafik_agama'); ?>" <?php if ($location == 'grafik_agama') {
                                                               echo 'class="active"';
                                                             } ?>> <i class="bi bi-circle"></i><span>Berdasarkan Agama</span> </a>
-          <li>
+         <li>
+          
           <li> <a href="<?= base_url('grafik_pendapatan'); ?>" <?php if ($location == 'grafik_pendapatan') {
                                                               echo 'class="active"';
                                                             } ?>> <i class="bi bi-circle"></i><span>Berdasarkan Pendapatan</span> </a>

@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/kelas_malam/demografi/';
+    public $baseURL = 'http://localhost/Demografi/';
 
     /**
      * --------------------------------------------------------------------------

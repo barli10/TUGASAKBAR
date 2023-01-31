@@ -44,6 +44,7 @@ var chart = am4core.createFromConfig({
       "value": "jumlah",
       "category": "jenis_kelamin"
     }
+   
   }],
 
   // Add data

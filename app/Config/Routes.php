@@ -50,6 +50,18 @@ $routes->add('penduduk/pro_edit', 'Penduduk::pro_edit');
 $routes->add('grafik_gender', 'Grafik_gender::index');
 $routes->add('grafik_gender/grafik_gender_json', 'Grafik_gender::grafik_gender_json');
 
+$routes->add('grafik_agama', 'Grafik_agama::index');
+$routes->add('grafik_agama/grafik_agama_json', 'Grafik_agama::grafik_agama_json');
+
+$routes->add('grafik_pendapatan', 'Grafik_pendapatan::index');
+$routes->add('grafik_pendapatan/grafik_pendapatan_json', 'Grafik_pendapatan::grafik_pendapatan_json');
+
+$routes->add('grafik_pendidikan', 'Grafik_pendidikan::index');
+$routes->add('grafik_pendidikan/grafik_pendidikan_json', 'Grafik_pendidikan::grafik_pendidikan_json');
+
+$routes->add('grafik_kelurahan', 'Grafik_kelurahan::index');
+$routes->add('grafik_kelurahan/grafik_kelurahan_json', 'Grafik_kelurahan::grafik_kelurahan_json');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

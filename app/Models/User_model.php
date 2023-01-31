@@ -15,7 +15,7 @@ class User_model extends Model
         return $this->asArray()
             ->where([
                 'username' => $username,
-                'password'      => $password
+                'password' => $password
             ])
             ->first();
     }

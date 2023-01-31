@@ -20,7 +20,7 @@ class Home extends BaseController
         $session       = \Config\Services::session();
         $m_user        = new User_model();
             $username = $this->request->getPost('username');
-            $password = md5($this->request->getPost('password'));
+            $password = ($this->request->getPost('password'));
             $user     = $m_user->login($username, $password);
 
             // Proses login

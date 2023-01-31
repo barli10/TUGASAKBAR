@@ -15,7 +15,7 @@
             <div class="card-body">
               <h5 class="card-title">Table Data Penduduk</h5>
               <p><a href="<?= base_url('penduduk/add')?>" class="btn btn-primary">
-              <i class="bi bi-plus"></i> Add </a></p>
+              <i class="bi bi-plus"></i> Tambah Data </a></p>
               <table id="example" class="display" style="width:100%;">
         <thead>
             <tr>

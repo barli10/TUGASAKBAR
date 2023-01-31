@@ -14,8 +14,9 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #f6f9ff;
-  color: #444444;
+  background: #42567d;
+  color: #8f0d0d;
+  image : "assets/img/Card.png"
 }
 
 a {
@@ -63,7 +64,7 @@ h6 {
   font-size: 24px;
   margin-bottom: 0;
   font-weight: 600;
-  color: #012970;
+  color: #08d98d;
 }
 
 /*--------------------------------------------------------------
@@ -396,8 +397,8 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   height: 60px;
-  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+  box-shadow: 0px 2px 20px rgba(31, 216, 108, 0.1);
+  background-color: rgb(217, 224, 7);
   padding-left: 20px;
   /* Toggle Sidebar Button */
   /* Search Bar */
@@ -475,6 +476,8 @@ h6 {
 --------------------------------------------------------------*/
 .header-nav ul {
   list-style: none;
+  color:#11dc52
+  
 }
 
 .header-nav>ul {
@@ -490,7 +493,7 @@ h6 {
 }
 
 .header-nav .nav-profile {
-  color: #012970;
+  color: #1006bf;
 }
 
 .header-nav .nav-profile img {
@@ -624,9 +627,9 @@ h6 {
   padding: 20px;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: #aab7cf transparent;
+  scrollbar-color: #1154d0 transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+  background-color: rgb(200, 244, 3);
 }
 
 @media (max-width: 1199px) {
